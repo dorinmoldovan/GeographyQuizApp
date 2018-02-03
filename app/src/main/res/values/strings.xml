@@ -13,4 +13,6 @@
     <string name="russia">Russia</string>
     <string name="question_3">3. Which continent has the largest surface?</string>
     <string name="asia">ASIA</string>
+    <string name="question_4">4. Select the continent with the smallest surface: </string>
+    <string name="australia">Australia</string>
 </resources>
