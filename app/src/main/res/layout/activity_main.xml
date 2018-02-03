@@ -13,7 +13,7 @@
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/sunViewID"
+            android:id="@+id/topSunViewID"
             android:layout_width="@dimen/image_size"
             android:layout_height="@dimen/image_size"
             android:layout_gravity="center_horizontal"
@@ -83,8 +83,7 @@
             android:layout_marginLeft="@dimen/margin"
             android:fontFamily="sans-serif-medium"
             android:text="@string/germany"
-            android:textSize="@dimen/text_size"
-            />
+            android:textSize="@dimen/text_size" />
 
         <CheckBox
             android:id="@+id/russia_checkbox"
@@ -108,9 +107,27 @@
             android:id="@+id/largest_continent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="@dimen/padding"
             android:layout_margin="@dimen/margin"
-            android:inputType="textCapCharacters" />
+            android:inputType="textCapCharacters"
+            android:padding="@dimen/padding" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin"
+            android:fontFamily="sans-serif-medium"
+            android:padding="@dimen/padding"
+            android:text="@string/question_4"
+            android:textSize="@dimen/text_size" />
+
+        <Spinner
+            android:id="@+id/continents_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin"
+            android:drawSelectorOnTop="true"
+            android:entries="@array/spinnerItems"
+            android:padding="@dimen/padding" />
 
         <Button
             android:layout_width="wrap_content"
@@ -119,6 +136,14 @@
             android:layout_margin="@dimen/layout_margin"
             android:onClick="computeScore"
             android:text="@string/submit" />
+
+        <ImageView
+            android:id="@+id/bottomSunViewID"
+            android:layout_width="@dimen/image_size"
+            android:layout_height="@dimen/image_size"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="@dimen/layout_margin"
+            android:src="@drawable/sun" />
 
     </LinearLayout>
 

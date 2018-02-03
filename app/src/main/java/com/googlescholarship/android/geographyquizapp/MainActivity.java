@@ -7,11 +7,12 @@ import android.view.View;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
+import android.widget.Spinner;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
-    public static final int MAX_SCORE = 5;
+    public static final int MAX_SCORE = 4;
     private int finalScore = 0;
 
     @Override
@@ -31,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         computeScoreForTheFirstQuestion();
         computeScoreForTheSecondQuestion();
         computeScoreForTheThirdQuestion();
+        computeScoreForTheFourthQuestion();
         Context context = getApplicationContext();
         CharSequence text = getString(R.string.score_message_start) + finalScore
                 + getString(R.string.score_message_end) + MAX_SCORE;
@@ -67,6 +69,16 @@ public class MainActivity extends AppCompatActivity {
     private void computeScoreForTheThirdQuestion() {
         EditText editText = (EditText) findViewById(R.id.largest_continent);
         if(editText.getText().toString().equals(getString(R.string.asia))) {
+            finalScore += 1;
+        }
+    }
+
+    /**
+     * This method computes the score for the fourth question.
+     */
+    private void computeScoreForTheFourthQuestion() {
+        Spinner spinner = (Spinner) findViewById(R.id.continents_spinner);
+        if(spinner.getSelectedItem().toString().equals(getString(R.string.australia))) {
             finalScore += 1;
         }
     }
