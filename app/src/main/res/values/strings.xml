@@ -5,5 +5,12 @@
     <string name="budapest">Budapest</string>
     <string name="belgrade">Belgrade</string>
     <string name="submit">Submit</string>
-    <string name="score_message">You score is&#160;</string>
+    <string name="score_message_start">Your score is&#160;</string>
+    <string name="score_message_end">&#160; out of &#160;</string>
+    <string name="question_2">2. Which countries are members of the European Union?</string>
+    <string name="france">France</string>
+    <string name="germany">Germany</string>
+    <string name="russia">Russia</string>
+    <string name="question_3">3. Which continent has the largest surface?</string>
+    <string name="asia">ASIA</string>
 </resources>
