@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Geography Quiz App</string>
+    <string name="question_1">1. What is the capital of Romania?</string>
+    <string name="bucharest">Bucharest</string>
+    <string name="budapest">Budapest</string>
+    <string name="belgrade">Belgrade</string>
+    <string name="submit">Submit</string>
+    <string name="score_message">You score is&#160;</string>
 </resources>
