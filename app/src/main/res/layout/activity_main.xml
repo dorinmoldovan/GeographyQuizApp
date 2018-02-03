@@ -32,10 +32,8 @@
         <RadioGroup
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/margin"
             android:fontFamily="sans-serif-medium"
-            android:orientation="vertical"
-            android:padding="@dimen/padding">
+            android:orientation="vertical">
 
             <RadioButton
                 android:id="@+id/bucharest_radio_button"
@@ -59,6 +57,60 @@
                 android:text="@string/belgrade"
                 android:textSize="@dimen/text_size" />
         </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin"
+            android:fontFamily="sans-serif-medium"
+            android:padding="@dimen/padding"
+            android:text="@string/question_2"
+            android:textSize="@dimen/text_size" />
+
+        <CheckBox
+            android:id="@+id/france_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/france"
+            android:textSize="@dimen/text_size" />
+
+        <CheckBox
+            android:id="@+id/germany_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/germany"
+            android:textSize="@dimen/text_size"
+            />
+
+        <CheckBox
+            android:id="@+id/russia_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin"
+            android:fontFamily="sans-serif-medium"
+            android:text="@string/russia"
+            android:textSize="@dimen/text_size" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin"
+            android:fontFamily="sans-serif-medium"
+            android:padding="@dimen/padding"
+            android:text="@string/question_3"
+            android:textSize="@dimen/text_size" />
+
+        <EditText
+            android:id="@+id/largest_continent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/padding"
+            android:layout_margin="@dimen/margin"
+            android:inputType="textCapCharacters" />
 
         <Button
             android:layout_width="wrap_content"
