@@ -23,7 +23,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/margin"
+            android:layout_marginLeft="@dimen/left_margin"
             android:fontFamily="sans-serif-medium"
             android:padding="@dimen/padding"
             android:text="@string/question_1"
@@ -33,6 +33,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="sans-serif-medium"
+            android:layout_marginLeft="@dimen/left_margin"
             android:orientation="vertical">
 
             <RadioButton
@@ -61,7 +62,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/margin"
+            android:layout_marginLeft="@dimen/left_margin"
             android:fontFamily="sans-serif-medium"
             android:padding="@dimen/padding"
             android:text="@string/question_2"
@@ -71,7 +72,7 @@
             android:id="@+id/france_checkbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginLeft="@dimen/left_margin"
             android:fontFamily="sans-serif-medium"
             android:text="@string/france"
             android:textSize="@dimen/text_size" />
@@ -80,7 +81,7 @@
             android:id="@+id/germany_checkbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginLeft="@dimen/left_margin"
             android:fontFamily="sans-serif-medium"
             android:text="@string/germany"
             android:textSize="@dimen/text_size" />
@@ -89,7 +90,7 @@
             android:id="@+id/russia_checkbox"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="@dimen/margin"
+            android:layout_marginLeft="@dimen/left_margin"
             android:fontFamily="sans-serif-medium"
             android:text="@string/russia"
             android:textSize="@dimen/text_size" />
@@ -97,7 +98,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/margin"
+            android:layout_marginLeft="@dimen/left_margin"
             android:fontFamily="sans-serif-medium"
             android:padding="@dimen/padding"
             android:text="@string/question_3"
@@ -107,14 +108,15 @@
             android:id="@+id/largest_continent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/margin"
+            android:layout_marginLeft="@dimen/left_margin"
+            android:layout_marginRight="@dimen/right_margin"
             android:inputType="textCapCharacters"
             android:padding="@dimen/padding" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/margin"
+            android:layout_marginLeft="@dimen/left_margin"
             android:fontFamily="sans-serif-medium"
             android:padding="@dimen/padding"
             android:text="@string/question_4"
@@ -124,7 +126,8 @@
             android:id="@+id/continents_spinner"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="@dimen/margin"
+            android:layout_marginLeft="@dimen/left_margin"
+            android:layout_marginRight="@dimen/right_margin"
             android:drawSelectorOnTop="true"
             android:entries="@array/spinnerItems"
             android:padding="@dimen/padding" />
